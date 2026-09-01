@@ -1,12 +1,10 @@
 package org.studies.Integers;
 
-import java.util.Arrays;
-
 public class PalindromeNumber {
 
     /*
-    * Minha solução convertendo para String
-    * */
+     * Minha solução convertendo para String
+     * */
     public static boolean isPalindrome(int n) {
         if (n < 0) return false;
         String t = String.valueOf(n);
